@@ -1,0 +1,6 @@
+.idea
+*__ignore.go
+/bin
+.DS_Store
+/tmp
+.git
