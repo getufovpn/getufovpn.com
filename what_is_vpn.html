@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+	<head>
+		<title>TechLand</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+
+		<meta name="theme-color" content="#056EB9" />
+		<meta name="msapplication-navbutton-color" content="#056EB9" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="#056EB9" />
+
+		<!-- Favicons
+		================================================== -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link rel="apple-touch-icon" href="https://demo.artureanec.com/html/techland/img/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://demo.artureanec.com/html/techland/img/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://demo.artureanec.com/html/techland/img/apple-touch-icon-114x114.png">
+
+		<!-- Critical styles
+		================================================== -->
+		<link rel="stylesheet" href="css/critical.min.css" type="text/css">
+
+		<!-- Load google font
+		================================================== -->
+		<script type="text/javascript">
+			WebFontConfig = {
+				google: { families: [ 'Nunito+Sans:400,400i,700,700i,800,800i,900,900i', 'Quicksand:300,400,700'] }
+			};
+			(function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+		</script>
+
+		<!-- Load other scripts
+		================================================== -->
+		<script type="text/javascript">
+			var _html = document.documentElement,
+				isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+			_html.className = _html.className.replace("no-js","js");
+			_html.classList.add( isTouch ? "touch" : "no-touch");
+		</script>
+		<script type="text/javascript" src="js/device.min.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<!-- start header -->
+			<header id="top-bar" class="top-bar top-bar--light" data-nav-anchor="true">
+				<div class="top-bar__inner">
+					<div class="container-fluid">
+						<div class="row align-items-center no-gutters">
+
+							<a class="top-bar__logo site-logo" href="/">
+								<img class="img-fluid" src="img/site_logo/logo_2.png" width="159" height="45" alt="demo" />
+							</a>
+
+							<a id="top-bar__navigation-toggler" class="top-bar__navigation-toggler" href="javascript:void(0);">
+								<span></span>
+							</a>
+
+							<div class="top-bar__collapse">
+								<nav id="top-bar__navigation" class="top-bar__navigation" role="navigation">
+									<ul>
+										<li>
+											<a class="nav-link active" href="index.html#start-screen">Home</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#services">Services</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#pricing">Pricing</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#features">Features</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#testimonials">Testimonials</a>
+										</li>
+
+										<li class="has-submenu">
+											<a class="nav-link" href="javascript:void(0);">Feature</a>
+
+											<ul class="submenu">
+												<li><a href="about_us.html">About us</a></li>
+												<li><a href="features.html">Features</a></li>
+												<li><a href="what_is_vpn.html">What is VPN?</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+
+								<div id="top-bar__action" class="top-bar__action">
+									<div class="d-xl-flex flex-xl-row flex-xl-wrap align-items-xl-center">
+										<div class="top-bar__auth-btns">
+											<a href="sign_in.html">Sign In</a>
+
+											<a class="custom-btn custom-btn--medium custom-btn--style-3" href="index.html#get_in_touch">Get in Touch</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-- end header -->
+
+			<!-- start side menu -->
+			<div id="side-menu" class="side-menu  d-none">
+				<span class="side-menu__button-close  js-side-menu-close"></span>
+
+				<div class="side-menu__inner">
+					<div>
+						<img class="img-fluid lazy" src="img/blank.gif" data-src="img/site_logo/logo_1.png" width="159" height="45" alt="demo" />
+					</div>
+
+					<ul class="side-menu__menu">
+						<li class="active"><a href="how_it_works.html#">Documents</a></li>
+						<li><a href="how_it_works.html#">Aditional Info</a></li>
+						<li><a href="how_it_works.html#">Application</a></li>
+						<li><a href="how_it_works.html#">Useful Link</a></li>
+					</ul>
+
+					<address class="side-menu__address">
+						113 Fulton Street, Suite 721
+						New York, NY 10010 <br>
+						<a href="mailto:youremail@yourdomain.com">youremail@yourdomain.com</a> <br>
+						<a href="how_it_works.html#">+88 (0) 101 0000 000</a>
+
+						<div class="s-btns s-btns--md s-btns--colored s-btns--rounded">
+							<ul class="d-flex flex-row flex-wrap align-items-center">
+								<li><a class="f" href="how_it_works.html#"><i class="fontello-facebook"></i></a></li>
+								<li><a class="t" href="how_it_works.html#"><i class="fontello-twitter"></i></a></li>
+								<li><a class="y" href="how_it_works.html#"><i class="fontello-youtube-play"></i></a></li>
+								<li><a class="i" href="how_it_works.html#"><i class="fontello-instagram"></i></a></li>
+							</ul>
+						</div>
+					</address>
+
+					<div>
+						<a class="custom-btn custom-btn--medium custom-btn--style-5" href="how_it_works.html#">Purchase</a>
+					</div>
+				</div>
+			</div>
+			<!-- end side menu -->
+
+			<!-- start hero -->
+			<div id="hero" class="hero jarallax" data-speed="0.7" data-img-position="50% 90%" style="background-image: url('img/hero_img/1.jpg');">
+				<div class="container">
+					<h1 class="hero__title"><span>How it Works</span></h1>
+				</div>
+			</div>
+			<!-- end hero -->
+
+			<!-- start main -->
+			<main role="main">
+				<!-- Common styles
+				================================================== -->
+				<link rel="stylesheet" href="css/style.min.css" type="text/css">
+
+				<!-- Load lazyLoad scripts
+				================================================== -->
+				<script>
+					(function(w, d){
+						var m = d.getElementsByTagName('main')[0],
+							s = d.createElement("script"),
+							v = !("IntersectionObserver" in w) ? "8.17.0" : "12.0.0",
+							o = {
+								elements_selector: ".lazy",
+								threshold: 500,
+								callback_enter: function (element) {
+
+								},
+								callback_load: function (element) {
+
+								},
+								callback_set: function (element) {
+
+									oTimeout = setTimeout(function ()
+									{
+										clearTimeout(oTimeout);
+
+										AOS.refresh();
+									}, 1000);
+								},
+								callback_error: function(element) {
+									element.src = "https://placeholdit.imgix.net/~text?txtsize=21&txt=Image%20not%20load&w=200&h=200";
+								}
+							};
+						s.type = 'text/javascript';
+						s.async = false; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+						s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+						m.appendChild(s);
+						// m.insertBefore(s, m.firstChild);
+						w.lazyLoadOptions = o;
+					}(window, document));
+				</script>
+
+				<!-- start section -->
+				<section class="section">
+					<div class="container">
+						<div class="section-heading section-heading--center">
+							<h6 class="__subtitle">What is VPN?</h6>
+
+							<p>
+								VPN, or Virtual Private Network, is a tool that provides a secure tunnel for your internet traffic, encrypting your data and hiding your IP address. You are probably wondering “Why is this relevant and why would I need it?” We encourage you to explore the widget down below and see for yourself.
+							</p>
+
+							<p></p>
+							<img  width="608" src="img/8ea28aa.png" alt="">
+
+						</div>
+
+						<div class="spacer py-6"></div>
+
+						<div class="row">
+							<div class="col-12">
+
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+
+				<!-- start section -->
+				<section class="section section--light-blue-bg">
+					<div class="container">
+						<div class="row flex-md-row-reverse justify-content-md-end">
+							<div class="col-12 col-md-6 col-lg-6 col-xl-5">
+								<div class="mb-8">
+									<div class="section-heading">
+
+										<h2 class="__title">What I can do with VPN?</h2>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-6 col-lg-5 col-xl-4">
+								<div class="mb-8">
+									<img class="img-fluid lazy" width="298" height="234" src="img/blank.gif" data-src="img/img_9.png" data-srcset="img/img_9.png 1x, img/img_9@2x.png 2x" alt="demo" />
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12">
+
+								<!-- start steps -->
+								<div class="steps steps--s2">
+									<div class="tab-container">
+										<ul class="tab-nav">
+											<li class="tab-nav__item">
+												<a class="tab-nav__link" href="javascript:void(0);">Unblock websites</a>
+											</li>
+											<li class="tab-nav__item">
+												<a class="tab-nav__link" href="javascript:void(0);">Get VOIP</a>
+											</li>
+											<li class="tab-nav__item">
+												<a class="tab-nav__link" href="javascript:void(0);">Privacy  Security</a>
+											</li>
+											<li class="tab-nav__item">
+												<a class="tab-nav__link" href="javascript:void(0);">Circumvent Censorships</a>
+											</li>
+										</ul>
+
+										<div class="tab-content">
+											<div class="tab-content__item">
+												<div class="__item">
+													<h3 class="h4">Design for Creative Work</h3>
+
+													<p>
+														Circumvent VoIP limits imposed by governments, telecoms, and ISPs. Our blazing-fast speeds mean that you can enjoy clear international voice and video calls without buffering or blurry images.
+													</p>
+												</div>
+											</div>
+
+											<div class="tab-content__item">
+												<div class="__item">
+													<p>
+														VPN encrypts your data so no one can access your internet traffic including government, ISPs, and hackers.While connected to a VPN server, it also masks your real IP address to make your internet activities anonymous.
+													</p>
+
+													<p>
+													</p>
+												</div>
+											</div>
+
+											<div class="tab-content__item">
+												<div class="__item">
+													<p>
+														While using a VPN, you can create a secure connection to a permissive country as if you are in that location to access the internet contents without being censored.
+													</p>
+												</div>
+											</div>
+
+											<div class="tab-content__item">
+												<div class="__item">
+													<p>
+														Secure, throttle-free solution for Netflix’s largest library, BBC iPlayer. You can securely get it set up and working in under five minutes.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- end steps -->
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+
+			</main>
+			<!-- end main -->
+
+			<!-- start footer -->
+			<footer class="footer footer--s1 footer--color-light">
+				<div class="footer__line footer__line--first">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-4 col-lg-4 col-xl-3">
+								<div class="footer__item">
+									<a class="footer__logo site-logo" href="index.html">
+										<img class="img-fluid lazy" src="img/blank.gif" data-src="img/site_logo/logo_3.png" width="159" height="45" alt="demo" />
+									</a>
+								</div>
+
+								<div class="footer__item">
+									<span class="__copy">Copyrights 2016-2020 © <a class="__dev" href="https://getufovpn.com" target="_blank">UFO VPN</a></span>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-5 col-lg-3 offset-xl-1">
+								<div class="footer__item">
+									<address class="footer__address footer__address--s1">
+										Lee Garden One, Room 1907, 19/F, Lee Garden One, 33 Hysan Avenue, Causeway Bay, Wan Chai District, Hong Kong <br>
+										<a href="mailto:support@getufovpn.com">support@getufovpn.com</a> <br>
+									</address>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-3 col-lg-2">
+								<div class="footer__item">
+									<nav id="footer__navigation" class="footer__navigation">
+										<ul>
+											<!-- li class="active" -->
+											<li><a href="services.html" target="_blank">Terms of Service</a></li>
+											<li><a href="privacy.html" target="">Privacy Policy</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+
+
+							<div class="col-12 col-lg-3" style="display:none">
+								<div class="footer__item">
+									<!-- start social buttons -->
+									<div class="s-btns s-btns--md s-btns--colored s-btns--rounded">
+										<ul class="d-flex flex-row flex-wrap align-items-center">
+											<li><a class="f" href="index.html#"><i class="fontello-facebook"></i></a></li>
+											<li><a class="t" href="index.html#"><i class="fontello-twitter"></i></a></li>
+											<li><a class="y" href="index.html#"><i class="fontello-youtube-play"></i></a></li>
+											<li><a class="i" href="index.html#"><i class="fontello-instagram"></i></a></li>
+										</ul>
+									</div>
+									<!-- end social buttons -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__waves-container">
+					<svg class="footer__wave js-wave" data-wave='{"height": 40, "bones": 6, "amplitude": 70, "color": "rgba(78, 111, 136, 0.14)", "speed": 0.3}' width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d=""/></svg>
+
+					<svg class="footer__wave js-wave" data-wave='{"height": 60, "bones": 5, "amplitude": 90, "color": "rgba(243, 248, 249, 0.02)", "speed": 0.35}' width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d=""/></svg>
+				</div>
+			</footer>
+
+			<!-- end footer -->
+		</div>
+
+		<div id="btn-to-top-wrap">
+			<a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="800"></a>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')</script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="js/main.min.js"></script>
+		
+	</body>
+</html>

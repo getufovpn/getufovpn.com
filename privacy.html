@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+	<head>
+		<title>TechLand</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+
+		<meta name="theme-color" content="#056EB9" />
+		<meta name="msapplication-navbutton-color" content="#056EB9" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="#056EB9" />
+
+		<!-- Favicons
+		================================================== -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<!-- Critical styles
+		================================================== -->
+		<link rel="stylesheet" href="css/critical.min.css" type="text/css">
+
+		<!-- Load google font
+		================================================== -->
+		<script type="text/javascript">
+			WebFontConfig = {
+				google: { families: [ 'Nunito+Sans:400,400i,700,700i,800,800i,900,900i', 'Quicksand:300,400,700'] }
+			};
+			(function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+		</script>
+
+		<!-- Load other scripts
+		================================================== -->
+		<script type="text/javascript">
+			var _html = document.documentElement,
+				isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+			_html.className = _html.className.replace("no-js","js");
+			_html.classList.add( isTouch ? "touch" : "no-touch");
+		</script>
+		<script type="text/javascript" src="js/device.min.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<!-- start header -->
+			<header id="top-bar" class="top-bar top-bar--light" data-nav-anchor="true">
+				<div class="top-bar__inner">
+					<div class="container-fluid">
+						<div class="row align-items-center no-gutters">
+
+							<a class="top-bar__logo site-logo" href="/">
+								<img class="img-fluid" src="img/site_logo/logo_2.png" width="159" height="45" alt="demo" />
+							</a>
+
+							<a id="top-bar__navigation-toggler" class="top-bar__navigation-toggler" href="javascript:void(0);">
+								<span></span>
+							</a>
+
+							<div class="top-bar__collapse">
+								<nav id="top-bar__navigation" class="top-bar__navigation" role="navigation">
+									<ul>
+										<li>
+											<a class="nav-link active" href="index.html#start-screen">Home</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#services">Services</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#pricing">Pricing</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#features">Features</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#testimonials">Testimonials</a>
+										</li>
+
+										<li class="has-submenu">
+											<a class="nav-link" href="javascript:void(0);">Feature</a>
+
+											<ul class="submenu">
+												<li><a href="about_us.html">About us</a></li>
+												<li><a href="features.html">Features</a></li>
+												<li><a href="what_is_vpn.html">What is VPN?</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+
+								<div id="top-bar__action" class="top-bar__action">
+									<div class="d-xl-flex flex-xl-row flex-xl-wrap align-items-xl-center">
+										<div class="top-bar__auth-btns">
+											<a href="sign_in.html">Sign In</a>
+
+											<a class="custom-btn custom-btn--medium custom-btn--style-3" href="index.html#get_in_touch">Get in Touch</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-- end header -->
+
+			<!-- start side menu -->
+			<div id="side-menu" class="side-menu  d-none">
+				<span class="side-menu__button-close  js-side-menu-close"></span>
+
+				<div class="side-menu__inner">
+					<div>
+						<img class="img-fluid lazy" src="img/blank.gif" data-src="img/site_logo/logo_1.png" width="159" height="45" alt="demo" />
+					</div>
+
+					<ul class="side-menu__menu">
+						<li class="active"><a href="services.html#">Documents</a></li>
+						<li><a href="services.html#">Aditional Info</a></li>
+						<li><a href="services.html#">Application</a></li>
+						<li><a href="services.html#">Useful Link</a></li>
+					</ul>
+
+					<address class="side-menu__address">
+						113 Fulton Street, Suite 721
+						New York, NY 10010 <br>
+						<a href="mailto:youremail@yourdomain.com">youremail@yourdomain.com</a> <br>
+						<a href="services.html#">+88 (0) 101 0000 000</a>
+
+						<div class="s-btns s-btns--md s-btns--colored s-btns--rounded">
+							<ul class="d-flex flex-row flex-wrap align-items-center">
+								<li><a class="f" href="services.html#"><i class="fontello-facebook"></i></a></li>
+								<li><a class="t" href="services.html#"><i class="fontello-twitter"></i></a></li>
+								<li><a class="y" href="services.html#"><i class="fontello-youtube-play"></i></a></li>
+								<li><a class="i" href="services.html#"><i class="fontello-instagram"></i></a></li>
+							</ul>
+						</div>
+					</address>
+
+					<div>
+						<a class="custom-btn custom-btn--medium custom-btn--style-5" href="services.html#">Purchase</a>
+					</div>
+				</div>
+			</div>
+			<!-- end side menu -->
+
+			<!-- start hero -->
+			<div id="hero" class="hero jarallax" data-speed="0.7" data-img-position="50% 90%" style="background-image: url('img/hero_img/1.jpg');">
+				<div class="container">
+					<h1 class="hero__title"><span>Privacy Policy</span></h1>
+				</div>
+			</div>
+			<!-- end hero -->
+
+			<!-- start main -->
+			<main role="main">
+				<!-- Common styles
+				================================================== -->
+				<link rel="stylesheet" href="css/style.min.css" type="text/css">
+
+				<!-- Load lazyLoad scripts
+				================================================== -->
+				<script>
+					(function(w, d){
+						var m = d.getElementsByTagName('main')[0],
+							s = d.createElement("script"),
+							v = !("IntersectionObserver" in w) ? "8.17.0" : "12.0.0",
+							o = {
+								elements_selector: ".lazy",
+								threshold: 500,
+								callback_enter: function (element) {
+
+								},
+								callback_load: function (element) {
+
+								},
+								callback_set: function (element) {
+
+									oTimeout = setTimeout(function ()
+									{
+										clearTimeout(oTimeout);
+
+										AOS.refresh();
+									}, 1000);
+								},
+								callback_error: function(element) {
+									element.src = "https://placeholdit.imgix.net/~text?txtsize=21&txt=Image%20not%20load&w=200&h=200";
+								}
+							};
+						s.type = 'text/javascript';
+						s.async = false; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+						s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+						m.appendChild(s);
+						// m.insertBefore(s, m.firstChild);
+						w.lazyLoadOptions = o;
+					}(window, document));
+				</script>
+
+				<!-- start section -->
+				<section class="section">
+					<div class="container">
+						<div class="section-heading section-heading--center">
+							<p>
+      Dreamfii HK Limited. ("Dreamfii", "we," or "us") is the owner of the website ufovpn.io ("the Site"), the UFO VPN software ("the Software") and any accompanying services, features, content, and applications offered by us (collectively referred herein as "the Services"). We are concerned about your privacy and have designed this Privacy Policy in order to help you decide whether to use the Services. By accessing and using the Services, or providing information to us in other formats, you agree and accept the terms of this Privacy Policy as amended from time to time and consent to the collection and use of information in the manner set out in this Privacy Policy. We encourage you to review this Privacy Policy carefully and to periodically refer to it so that you understand it and any subsequent changes made to it.
+    </p> <p>
+      IF YOU DO NOT AGREE TO THE TERMS OF THIS PRIVACY POLICY, PLEASE STOP USING THE SERVICES IMMEDIATELY AND UNINSTALL WHERE RELEVANT.
+    </p> <h2>
+      What types of information do we collect?</h2> <p>
+      UFO VPN does not collect, monitor, or log any traffic or use of its Virtual Private Network service, under any circumstances, on any platform. While you are not required to provide any identifiable ("personal") information to browse our Site, in order to subscribe to our Services, you must first create an account and register with us. This is solely to maintain an active subscription to our service.
+    </p> <h3>Site
+    </h3> <div><p>
+        We aggregate and process information from Site visitors using cookies, pixels, and similar technologies, such as Google Analytics. In such cases of automated collection, the focus of this data collection is on our Site performance, fraud detection, and prevention purposes, not on your personal information. You can browse our Site without submitting any personal information. The only non-personal data we collect from all visitors is in order to improve our Site. This information is aggregated, offering a high-level view of our Site activity, including:
+      </p> <ul><li>Page requests</li> <li>Browser type</li> <li>Operating System</li> <li>Bounce rate</li> <li>Average time spent on our Site</li></ul> <p><strong>
+          We do not track user activities outside of our Site, nor do we track the website browsing or connection activities of users who are using our Services.
+
+        </strong></p></div> <h3>Services
+
+    </h3> <h4>Account creation:</h4> <p>
+      To create an account, in order to use our Service, we do not ask your name or surname. All you need to do is select your username, then provide the email address and choose your password. We do store the email address you have entered when creating an account for communication and anti-abuse purposes.
+    </p> <h4>
+      Support:
+    </h4> <p>
+      When you submit support requests or bug reports, we will collect the data that you choose to share with us about the issue being reported.
+    </p> <h4>Payment:
+
+    </h4> <p>
+      The Company relies on third parties to process credit card and PayPal transactions, and we do not save your full credit card details. For example, if you make a payment with a credit card, your name and the last 4 digits of the credit card number will become part of the invoice and saved by us.
+    </p> <h2>
+      How do we use your information?</h2> <p>
+      We use your information in order to provide you with the Service. This means that we will use the information to set up your account, provide you with support regarding the Service, communicate with you for updates, marketing offers or concerns you may have and conduct statistical and analytical research to improve the Service.
+    </p> <h2>
+      Information we share</h2> <p>
+      We do not rent or sell any Personal Information. We may disclose Personal Information to other trusted third party service providers or partners for the purposes of providing you with the Services, storage and analytics. We may also transfer or disclose Personal Information to our subsidiaries, affiliated companies.
+    </p> <p>
+      We may also share your Personal Information and other information in special cases if we have good reason to believe that it is necessary to: (1) comply with law, regulation, subpoena or court order; (2) detect, prevent or otherwise address fraud, security, violation of our policies or technical issues; (3) enforce the provisions of this Privacy Policy or any other agreements between you and us, including investigation of potential violations thereof; (4) protect against harm to the rights, property or safety of us, its partners, its affiliates, users, or the public.
+    </p> <h2>
+      Security and Confidentiality</h2> <p>
+      We use industry-standard information, security tools, and measures, as well as internal procedures and strict guidelines to prevent information misuse and data leakage. Our employees are subject to confidentiality obligations. We use measures and procedures that substantially reduce the risks of data misuse, but we cannot guarantee that our systems will be absolutely safe. If you become aware of any potential data breach or security vulnerability, you are requested to contact us immediately. We will use all measures to investigate the incident, including preventive measures, as required.
+    </p> <h2>
+      Your Choices and Rights</h2> <p>
+      We strive to give you ways to update your information quickly or to delete it – unless we have to keep that information for legitimate business or legal purposes. When updating your personal information, we may ask you to verify your identity before we can act on your request. If you are a resident of California, United States, you have the right to send us a written request regarding a list of Personal Information categories that we may have disclosed to third parties or to which we may have given to third parties, and the details of such third parties.
+    </p> <p>
+      If you are a resident of the European Union, please note that the following rights specifically apply regarding your personal information: (1) Receive confirmation as to whether or not personal information concerning you is being processed, and access your stored personal information, together with supplementary information; (2) Receive a copy of personal information you directly volunteer to us in a structured, commonly used and machine-readable format; (3) Request rectification of your personal information that is in our control; (4) Request erasure of your personal information; (5) Object to the processing of personal information by us; (6) Request to restrict processing of your personal information by us; (7) Lodge a complaint with a supervisory authority.
+    </p> <p>
+      However, please note that these rights are not absolute, and may be subject to our own legitimate interests and regulatory requirements.
+    </p> <p>
+      To exercise such right, you may contact us at: support@ufovpn.io
+    </p> <h2>
+      Retention</h2> <p>
+      We will retain your personal information for as long as necessary to provide the Service, and as necessary to comply with our legal obligations, resolve disputes, and enforce our policies. Under applicable regulations, we will keep records containing client personal data, account opening documents, communications and anything else as required by applicable laws and regulations.
+    </p> <p>
+      We may rectify, replenish or remove incomplete or inaccurate information, at any time and at our own discretion.
+    </p> <h2>
+      Cookies</h2> <p>
+      When you use our Site, we may store cookies on your computer (as well as other tracking technologies like web beacons and pixels) in order to facilitate and customize your use of our Site. A cookie is a small data text file, which a website stores on your computer's hard drive (if your web browser permits) that can later be retrieved to identify you to us. Our cookies may store information regarding your account information. You are always free to decline our cookies if your browser permits, but such disabling may cause some of the features of our Site to not operate properly and your online experience may be limited.
+    </p> <p>
+      We also use a tool called “Google Analytics” to collect information about your use of the Site. Google’s ability to use and share information collected by Google Analytics about your visits to this Site is restricted by the Google Analytics Terms of Use and the Google Privacy Policy.
+    </p> <h2>
+      Information Warranty Disclaimer</h2> <p>
+      Notwithstanding anything else in this Policy, we are not responsible for the accuracy, correctness, and security of any of the information we gather, store, and disclose to you or to anyone else.
+    </p> <p>
+      Our policy only addresses the use and disclosure of information we collect from you. To the extent you disclose your information to other parties or sites throughout the internet, different rules may apply to their use or disclosure of the information you disclose to them. Accordingly, we encourage you to read the terms and conditions and privacy policy of each third party that you choose to disclose information to.
+    </p> <h2>
+      Change of Ownership</h2> <p>
+      In the event of a change of ownership or control of all or a part of UFO VPN, including without limitation through acquisition, merger, or sale, we reserve the right to transfer all or part of the Personal Information and Anonymous Information we store in our systems. You acknowledge that in the event of bankruptcy, insolvency, or receivership, we may have no control over the use and transfer of your personal information.
+    </p> <h2>
+      Changes to this Privacy Policy</h2> <p>
+      This Policy may be revised from time to time at our sole discretion, so please check it regularly. The last revision will be reflected in the "Last Updated" heading. Any change of this policy will be posted on the Site. Your continued use of the Services following any such changes will be considered as you consent to the amended Privacy Policy.
+    </p>
+						</div>
+					</div>
+
+
+
+				</section>
+				<!-- end section -->
+
+			</main>
+			<!-- end main -->
+
+			<!-- start footer -->
+			<footer class="footer footer--s1 footer--color-light">
+				<div class="footer__line footer__line--first">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-4 col-lg-4 col-xl-3">
+								<div class="footer__item">
+									<a class="footer__logo site-logo" href="index.html">
+										<img class="img-fluid lazy" src="img/blank.gif" data-src="img/site_logo/logo_3.png" width="159" height="45" alt="demo" />
+									</a>
+								</div>
+
+								<div class="footer__item">
+									<span class="__copy">Copyrights 2016-2020 © <a class="__dev" href="https://getufovpn.com" target="_blank">UFO VPN</a></span>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-5 col-lg-3 offset-xl-1">
+								<div class="footer__item">
+									<address class="footer__address footer__address--s1">
+										Lee Garden One, Room 1907, 19/F, Lee Garden One, 33 Hysan Avenue, Causeway Bay, Wan Chai District, Hong Kong <br>
+										<a href="mailto:support@getufovpn.com">support@getufovpn.com</a> <br>
+									</address>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-3 col-lg-2">
+								<div class="footer__item">
+									<nav id="footer__navigation" class="footer__navigation">
+										<ul>
+											<!-- li class="active" -->
+											<li><a href="services.html" target="_blank">Terms of Service</a></li>
+											<li><a href="privacy.html" target="">Privacy Policy</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+
+
+							<div class="col-12 col-lg-3" style="display:none">
+								<div class="footer__item">
+									<!-- start social buttons -->
+									<div class="s-btns s-btns--md s-btns--colored s-btns--rounded">
+										<ul class="d-flex flex-row flex-wrap align-items-center">
+											<li><a class="f" href="index.html#"><i class="fontello-facebook"></i></a></li>
+											<li><a class="t" href="index.html#"><i class="fontello-twitter"></i></a></li>
+											<li><a class="y" href="index.html#"><i class="fontello-youtube-play"></i></a></li>
+											<li><a class="i" href="index.html#"><i class="fontello-instagram"></i></a></li>
+										</ul>
+									</div>
+									<!-- end social buttons -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__waves-container">
+					<svg class="footer__wave js-wave" data-wave='{"height": 40, "bones": 6, "amplitude": 70, "color": "rgba(78, 111, 136, 0.14)", "speed": 0.3}' width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d=""/></svg>
+
+					<svg class="footer__wave js-wave" data-wave='{"height": 60, "bones": 5, "amplitude": 90, "color": "rgba(243, 248, 249, 0.02)", "speed": 0.35}' width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d=""/></svg>
+				</div>
+			</footer>
+
+			<!-- end footer -->
+		</div>
+
+		<div id="btn-to-top-wrap">
+			<a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="800"></a>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')</script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="js/main.min.js"></script>
+		
+	</body>
+</html>

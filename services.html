@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+	<head>
+		<title>TechLand</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+
+		<meta name="theme-color" content="#056EB9" />
+		<meta name="msapplication-navbutton-color" content="#056EB9" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="#056EB9" />
+
+		<!-- Favicons
+		================================================== -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<!-- Critical styles
+		================================================== -->
+		<link rel="stylesheet" href="css/critical.min.css" type="text/css">
+
+		<!-- Load google font
+		================================================== -->
+		<script type="text/javascript">
+			WebFontConfig = {
+				google: { families: [ 'Nunito+Sans:400,400i,700,700i,800,800i,900,900i', 'Quicksand:300,400,700'] }
+			};
+			(function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+		</script>
+
+		<!-- Load other scripts
+		================================================== -->
+		<script type="text/javascript">
+			var _html = document.documentElement,
+				isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+			_html.className = _html.className.replace("no-js","js");
+			_html.classList.add( isTouch ? "touch" : "no-touch");
+		</script>
+		<script type="text/javascript" src="js/device.min.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<!-- start header -->
+			<header id="top-bar" class="top-bar top-bar--light" data-nav-anchor="true">
+				<div class="top-bar__inner">
+					<div class="container-fluid">
+						<div class="row align-items-center no-gutters">
+
+							<a class="top-bar__logo site-logo" href="/">
+								<img class="img-fluid" src="img/site_logo/logo_2.png" width="159" height="45" alt="demo" />
+							</a>
+
+							<a id="top-bar__navigation-toggler" class="top-bar__navigation-toggler" href="javascript:void(0);">
+								<span></span>
+							</a>
+
+							<div class="top-bar__collapse">
+								<nav id="top-bar__navigation" class="top-bar__navigation" role="navigation">
+									<ul>
+										<li>
+											<a class="nav-link active" href="index.html#start-screen">Home</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#services">Services</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#pricing">Pricing</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#features">Features</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="index.html#testimonials">Testimonials</a>
+										</li>
+
+										<li class="has-submenu">
+											<a class="nav-link" href="javascript:void(0);">Feature</a>
+
+											<ul class="submenu">
+												<li><a href="about_us.html">About us</a></li>
+												<li><a href="features.html">Features</a></li>
+												<li><a href="what_is_vpn.html">What is VPN?</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+
+								<div id="top-bar__action" class="top-bar__action">
+									<div class="d-xl-flex flex-xl-row flex-xl-wrap align-items-xl-center">
+										<div class="top-bar__auth-btns">
+											<a href="sign_in.html">Sign In</a>
+
+											<a class="custom-btn custom-btn--medium custom-btn--style-3" href="index.html#get_in_touch">Get in Touch</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-- end header -->
+
+			<!-- start side menu -->
+			<div id="side-menu" class="side-menu  d-none">
+				<span class="side-menu__button-close  js-side-menu-close"></span>
+
+				<div class="side-menu__inner">
+					<div>
+						<img class="img-fluid lazy" src="img/blank.gif" data-src="img/site_logo/logo_1.png" width="159" height="45" alt="demo" />
+					</div>
+
+					<ul class="side-menu__menu">
+						<li class="active"><a href="services.html#">Documents</a></li>
+						<li><a href="services.html#">Aditional Info</a></li>
+						<li><a href="services.html#">Application</a></li>
+						<li><a href="services.html#">Useful Link</a></li>
+					</ul>
+
+					<address class="side-menu__address">
+						113 Fulton Street, Suite 721
+						New York, NY 10010 <br>
+						<a href="mailto:youremail@yourdomain.com">youremail@yourdomain.com</a> <br>
+						<a href="services.html#">+88 (0) 101 0000 000</a>
+
+						<div class="s-btns s-btns--md s-btns--colored s-btns--rounded">
+							<ul class="d-flex flex-row flex-wrap align-items-center">
+								<li><a class="f" href="services.html#"><i class="fontello-facebook"></i></a></li>
+								<li><a class="t" href="services.html#"><i class="fontello-twitter"></i></a></li>
+								<li><a class="y" href="services.html#"><i class="fontello-youtube-play"></i></a></li>
+								<li><a class="i" href="services.html#"><i class="fontello-instagram"></i></a></li>
+							</ul>
+						</div>
+					</address>
+
+					<div>
+						<a class="custom-btn custom-btn--medium custom-btn--style-5" href="services.html#">Purchase</a>
+					</div>
+				</div>
+			</div>
+			<!-- end side menu -->
+
+			<!-- start hero -->
+			<div id="hero" class="hero jarallax" data-speed="0.7" data-img-position="50% 90%" style="background-image: url('img/hero_img/1.jpg');">
+				<div class="container">
+					<h1 class="hero__title"><span>Terms of Service</span></h1>
+				</div>
+			</div>
+			<!-- end hero -->
+
+			<!-- start main -->
+			<main role="main">
+				<!-- Common styles
+				================================================== -->
+				<link rel="stylesheet" href="css/style.min.css" type="text/css">
+
+				<!-- Load lazyLoad scripts
+				================================================== -->
+				<script>
+					(function(w, d){
+						var m = d.getElementsByTagName('main')[0],
+							s = d.createElement("script"),
+							v = !("IntersectionObserver" in w) ? "8.17.0" : "12.0.0",
+							o = {
+								elements_selector: ".lazy",
+								threshold: 500,
+								callback_enter: function (element) {
+
+								},
+								callback_load: function (element) {
+
+								},
+								callback_set: function (element) {
+
+									oTimeout = setTimeout(function ()
+									{
+										clearTimeout(oTimeout);
+
+										AOS.refresh();
+									}, 1000);
+								},
+								callback_error: function(element) {
+									element.src = "https://placeholdit.imgix.net/~text?txtsize=21&txt=Image%20not%20load&w=200&h=200";
+								}
+							};
+						s.type = 'text/javascript';
+						s.async = false; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+						s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+						m.appendChild(s);
+						// m.insertBefore(s, m.firstChild);
+						w.lazyLoadOptions = o;
+					}(window, document));
+				</script>
+
+				<!-- start section -->
+				<section class="section">
+					<div class="container">
+						<div class="section-heading section-heading--center">
+
+
+
+								<p>
+      The following Terms of Service (the "Terms") outlines the terms and conditions of use of and access to the Contents (the "Contents") and Services (the "Services") provided by Dreamfii HK Limited. ("UFO VPN" or "we"), which includes UFO VPN's website (the "Website"), applications (the "Apps") and any software provided by UFO VPN (the "Softwares").</p> <h2>
+      ACCEPTANCE OF THE TERMS</h2> <p>
+      By accessing the Contents or Services, you or those you represent ("you") agree and acknowledge that you have read and accepted the terms in its entirety. These Terms constitute a legally binding agreement (the "Agreement") between you and UFO VPN. These terms also apply to all users of the Service, including the users with paid accounts. If you don't agree with any part of the Terms, you may not use our Service.
+    </p> <h2>
+      MODIFICATION</h2> <p>
+
+      UFO VPN reserves the rights, at its sole discretion to modify the Terms of this Agreement at any time. If any core changes to the Terms, all users will be notified by Email, in-App message and will be announced by UFO VPN on its Website. You understand that it is your responsibility to review any such modifications. If you continue to use UFO VPN's Services and Contents after the modifications take effect, you understand and agree to the revised Terms.</p> <h2>
+
+      PRIVACY POLICY</h2> <p>
+
+      UFO VPN does not and will not collect or store traffic data, DNS queries, browsing history and VPN connection destination.</p> <p>
+
+      UFO VPN does require users to provide certain information such as email address and payment information during registration and purchase for customer support purposes. The detailed information is documented on the Privacy Policy page on our Website; please review the document in accordance with the Acceptance of the Terms.</p> <p>
+
+      We do not provide any users' information to any third parties. We do not cooperate with any request for information unless we are ordered by a court of competent jurisdiction.
+    </p> <h2>SUBSCRIPTION TERMS</h2> <p>
+      UFO VPN Services are available to you upon registration on the Site. By subscribing to the Services, you agree to become a subscriber (“Subscriber”) for the period you have elected. A full list of subscription plans and pricing is available on the Site.
+    </p> <p>
+      When supported by your payment method, plans renew automatically by default at the completion of the billing term. By default, the renewal term is for the same duration as the billing term for the original subscription. The subscription fee will be charged automatically to the payment method you last selected. If you would like to discontinue automatic renewal, you may sign in to the Site and turn off auto-renewal. By default, auto-renewal is turned on when you use a payment method that supports auto-renewal (such as a credit card or Paypal).
+    </p> <p>
+      Each paid subscription grants you to use on five (5) different devices at any given time.
+    </p> <h2>
+      LICENSE</h2> <p>
+
+      UFO VPN grants you a non-exclusive, non-transferable right to use the service. You shall not modify, distribute, sublicense or by any mean commercially exploit or make available to any third parties the Services in any way.</p> <p>
+
+      UFO VPN reserves all rights that are not expressly granted to you.
+    </p> <h2>
+      REFUND POLICY</h2> <p>
+
+      For the purchase through our Website, you may cancel the premium subscription and request a full refund within 7 days of your initial purchase. Refund beyond 7-day window may be considered, at the sole discretion of UFO VPN.</p> <p>
+
+      For the purchase through other Platform (Google play store, The App Store, etc.), their refund policies shall govern.
+    </p> <h2>
+      ACCEPTABLE USAGE POLICY</h2> <p>
+
+      It is your responsibility, at all times to assess whether using the Website, Apps, Software or Services is in compliance with applicable local, state national and foreign laws, and regulation. You should also comply with these Terms and applicable laws, regulation, and policies whenever you use the Website, Apps, Software or Services.</p> <p>
+
+      You agree to keep your UFO VPN account information confidential. You are responsible all actions that occur on our servers where the login uses your user ID and password. You are advised to contact UFO VPN if you discover or suspect that your account information has been compromised immediately.</p> <p> When using our Service, you agree not to:</p> <ul style="color:#37474f;font-size:.7rem;"><li>Send unsolicited contents (i.e., "spam") in any form over the Service.</li> <li>Send contents that contain illegal, abusive, hateful, threatening, obscene materials; or intellectual property infringement and privacy invasion.</li> <li>Distribute, reproduce, upload, download or post any copyrighted contents before obtaining authorization or permission from the owner of the proprietary material. </li> <li>
+        Distribute, reproduce, upload, download or post any contents that contain explicit or sexual depictions of minors.</li> <li>Attempt to gain unauthorized access to the Service or its related systems or networks (i.e., any form of “hacking”).</li> <li>Engage in any conducts that inhibit or restrict any other users from enjoying or using the Services, which include but not limited to unfair usage of the network (i.e., Utilizing substantially excessive bandwidth that exceeds the average user bandwidth usage for an extended duration or like manners that exert an excessive load on the network that may cause disturbance to other users on the network).</li></ul> <p>
+      UFO VPN reserves the right to take appropriate action when the Service is being used contrary to these Terms and applicable laws, which including termination of your account and the Service without providing a refund and notice.
+    </p> <h2>
+      DISCLAIMERS</h2> <p>
+
+      UFO VPN is providing this service on the "as-is" and "as-available" basis without warranty or representation of any kind. UFO VPN does not guarantee the Services will meet your requirements, as in continuous availability of the Service or any specific feature(s) of the service. You acknowledge that you access the Website and Services at your sole risk and discretion.
+    </p> <p>
+      The VPN Service (coverage, speed, quality, and server location) may vary, and the Service is subject to unavailability including but not limited to third-party service failure; emergencies; equipment, transmission, or network limitation or issue; interference or signal strength. UFO VPN is not responsible for any failure to maintain the accuracy, quality, security, and confidentiality of your data, message, or pages whether or not related to interruptions or performance issues with the Service.</p> <p>
+
+      UFO VPN may impose usage or service limits, suspend service, or block certain kinds of usage in our sole discretion.
+    </p> <h2>
+      LIMITATION OF LIABILITY</h2> <p>
+
+      UFO VPN shall not be liable under liable under contract, tort, strict liability, negligence or any other legal theory concerning the services for any lost profits or Special, indirect, incidental, punitive, or consequential damages of any kind whatsoever. In no event will UFO VPN, its partners, affiliates, subsidiaries, members, officers, or employees be liable for any direct, special, indirect, consequential, or incidental damages, or for any other loss or damages of any kind, even if they have been advised of the possibility thereof. The foregoing shall not apply to the extent prohibited by applicable law.
+    </p> <h2>
+      OWNERSHIP</h2> <p>
+
+      The UFO VPN and its Service is owned by Dreamfii HK Limited. Dreamfii HK Limited owns all the visual interfaces, information, servers, products, software, graphical materials and all other elements of the service.
+    </p> <h2>
+      INDEMNIFICATION</h2> <p>
+
+      You hereby agree to indemnify, defend, and hold harmless UFO VPN, its employees, members, directors, agents, supplier, and affiliated companies and their employees, agents, directors, shareholders, members, from any and all claim and expenses, including attorneys’ fees, arising out of your use of the Content and Service, including but not limited to your violation of this Agreement. We may, at our sole discretion, assume the exclusive defense and control of any matter subject to indemnification by you. The assumption of such defense or control by us, however, shall not excuse any of your indemnity obligations.</p></div>
+						</div>
+
+
+
+
+				</section>
+				<!-- end section -->
+
+			</main>
+			<!-- end main -->
+
+			<!-- start footer -->
+			<footer class="footer footer--s1 footer--color-light">
+				<div class="footer__line footer__line--first">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-4 col-lg-4 col-xl-3">
+								<div class="footer__item">
+									<a class="footer__logo site-logo" href="index.html">
+										<img class="img-fluid lazy" src="img/blank.gif" data-src="img/site_logo/logo_3.png" width="159" height="45" alt="demo" />
+									</a>
+								</div>
+
+								<div class="footer__item">
+									<span class="__copy">Copyrights 2016-2020 © <a class="__dev" href="https://getufovpn.com" target="_blank">UFO VPN</a></span>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-5 col-lg-3 offset-xl-1">
+								<div class="footer__item">
+									<address class="footer__address footer__address--s1">
+										Lee Garden One, Room 1907, 19/F, Lee Garden One, 33 Hysan Avenue, Causeway Bay, Wan Chai District, Hong Kong <br>
+										<a href="mailto:support@getufovpn.com">support@getufovpn.com</a> <br>
+									</address>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-3 col-lg-2">
+								<div class="footer__item">
+									<nav id="footer__navigation" class="footer__navigation">
+										<ul>
+											<!-- li class="active" -->
+											<li><a href="services.html" target="_blank">Terms of Service</a></li>
+											<li><a href="privacy.html" target="">Privacy Policy</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+
+
+							<div class="col-12 col-lg-3" style="display:none">
+								<div class="footer__item">
+									<!-- start social buttons -->
+									<div class="s-btns s-btns--md s-btns--colored s-btns--rounded">
+										<ul class="d-flex flex-row flex-wrap align-items-center">
+											<li><a class="f" href="index.html#"><i class="fontello-facebook"></i></a></li>
+											<li><a class="t" href="index.html#"><i class="fontello-twitter"></i></a></li>
+											<li><a class="y" href="index.html#"><i class="fontello-youtube-play"></i></a></li>
+											<li><a class="i" href="index.html#"><i class="fontello-instagram"></i></a></li>
+										</ul>
+									</div>
+									<!-- end social buttons -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__waves-container">
+					<svg class="footer__wave js-wave" data-wave='{"height": 40, "bones": 6, "amplitude": 70, "color": "rgba(78, 111, 136, 0.14)", "speed": 0.3}' width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d=""/></svg>
+
+					<svg class="footer__wave js-wave" data-wave='{"height": 60, "bones": 5, "amplitude": 90, "color": "rgba(243, 248, 249, 0.02)", "speed": 0.35}' width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d=""/></svg>
+				</div>
+			</footer>
+
+			<!-- end footer -->
+		</div>
+
+		<div id="btn-to-top-wrap">
+			<a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="800"></a>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')</script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="js/main.min.js"></script>
+		
+	</body>
+</html>
